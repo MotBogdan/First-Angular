@@ -1,0 +1,44 @@
+.example-spacer {
+    flex: 1 1 auto;   
+}
+
+.titleBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 3px;
+  border-bottom-color: rgb(218, 218, 0);
+  border-bottom-style: solid;
+  align-items: center;
+  height: 30px;
+}
+
+.first span{
+  margin-right: 5px;
+  font-size: 12px;
+  color:gray;
+}
+
+.first,.second,.third{
+  display: flex;
+  align-items: center;
+}
+
+.second span{
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
+}
+
+.third{
+  display: flex;
+  justify-content: right;
+  font-size: 12px;
+  background-color: orange;
+  background-clip: padding-box;
+  height: 29px;
+  align-items: right;
+}
+.example-headers-align .mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}
